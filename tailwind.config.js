@@ -8,7 +8,9 @@ module.exports = {
       'navtorDark': '#141619',
       'white':'#fff',
       'navtorLightBlue':'#00c0ef',
-      'grayHighlight':'#484742'
+      'grayHighlight':'#484742',
+      'navtorRoyalBlue':'#192740',
+      'navtorHoverGreen':'#196363'
     },
      screens: {
       'sm': '640px',
@@ -28,6 +30,9 @@ module.exports = {
     },
     fontFamily:{
       'sans': ['Helvetica', 'Arial', 'sans-serif'],
+    },
+    transitionProperty: {
+      'height': 'height',
     }
   },
   plugins: [],
